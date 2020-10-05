@@ -36,6 +36,20 @@ int main()
 			cout << " plus bas! " << endl;
 		}
 	}
+	if (essais < 5)
+	{
+		cout << " vous avez eu le maximum nombre d'éssais!";
+	}
+
 
 	return 0;
 }
+	
+/*				numero a trouver			resultat
+*					  93					
+*  essais		     2							plus haut
+*					5							plus haut
+*					100						plus bas	
+*					39						plus bas
+*					93						vous avez devinez!
+*/
